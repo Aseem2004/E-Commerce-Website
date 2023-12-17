@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.products{
+    width:100vw;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: white;
+}
+
+.prdt{
+    width: 300px;
+    height: 600px;
+    background-image: linear-gradient(rgb(72, 6, 92),rgb(80, 49, 80));
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+}
+.img{
+    width:240px;
+    height: 250px;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+}
+
+.apple .img{
+    background-image: url(apple.jpeg);
+    background-size: cover;
+}
+.mango .img{
+    background-image: url(mango.jpeg);
+    background-size: cover;
+}
+.guava .img{
+    background-image: url(guava.jpeg);
+    background-size: cover;
+}
+.info{
+    padding: 30px;
+    text-align: justify;
+}
+.head{
+    text-align: center;
+    font-size: 1.7rem;
+
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+button{
+    border-radius: 5px;
+    background-color: pink;
+    color: white;
+    padding: 7px;
+    font-size: 1.3rem;
+}
